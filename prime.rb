@@ -6,6 +6,3 @@ def prime?(int)
   end
   true
 end
-
-
-
