@@ -3,10 +3,10 @@ require "pry"
 def prime?(num)
   if num>3
     [2...(num-1)].each do |n|
-      # binding.pry
+      binding.pry
       return false if num % n == 0
     end
   else
-    true
+    return true
   end
 end
